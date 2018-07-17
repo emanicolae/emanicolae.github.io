@@ -1,3 +1,9 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-family: Helvetica:cursive;
     background-color: #eeeeee;
@@ -9,4 +15,20 @@ h1 {
 h2 {
     color: #555;
     border-top: solid 1px #333;
+}
+
+#emphasis {
+  font-size: 30px;
+}
+#lorem_ipsum {
+  font-size: 20px;
+  font-family: Monaco, monospace;
+}
+.term {
+  background: #222;
+  color: #eee;
+  font-size: 16px;
+}
+.term p strong, p strong  {
+  font-size:50px;
 }
